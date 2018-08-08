@@ -4,3 +4,5 @@
 (*) flip card - https://github.com/moschan/react-native-flip-card  (used by react-native-credit-card)
 (*) braintress credit handling - https://medium.com/react-native-training/accepting-payments-in-a-react-native-app-part-4-cb4f7c02c193
 (*) stripe -  https://medium.com/code-well-live-forever/credit-cards-with-stripe-and-react-native-1bfe9afcbb42
+(*) apple & google pay -  https://github.com/naoufal/react-native-payments (stripe & braintree)
+    expo               - https://docs.expo.io/versions/latest/sdk/payments 
