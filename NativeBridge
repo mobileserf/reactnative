@@ -1,0 +1,14 @@
+(*) Native to react event emitter use NativeEventEmitter
+    https://blog.callstack.io/sending-events-to-javascript-from-your-native-module-in-react-native-29244f890e04
+
+(*) native - react bridge login
+    https://blog.callstack.io/reactnative-how-to-check-what-passes-through-your-bridge-e435571ffd85 
+
+    DEVELOPMENT - to see what is going between react java module and native code
+    import MessageQueue from 'react-native/Libraries/BatchedBridge/MessageQueue.js';
+
+    const spyFunction = (msg) => {
+       console.log(msg);
+    };
+
+    MessageQueue.spy(spyFunction);
