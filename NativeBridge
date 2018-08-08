@@ -1,5 +1,6 @@
-(*) Native to react event emitter use NativeEventEmitter
+(*) Native from/to react event emitter use NativeEventEmitter(ios) or DeviceEventEmitter(android)  bridge
     https://blog.callstack.io/sending-events-to-javascript-from-your-native-module-in-react-native-29244f890e04
+    https://facebook.github.io/react-native/docs/native-modules-android 
 
 (*) native - react bridge login
     https://blog.callstack.io/reactnative-how-to-check-what-passes-through-your-bridge-e435571ffd85 
@@ -9,6 +10,9 @@
 
     const spyFunction = (msg) => {
        console.log(msg);
+       if (msg.type = 0) { #msg is from native -> java script}
+       else (#msg is from JS -> native) 
+        
     };
 
     MessageQueue.spy(spyFunction);
