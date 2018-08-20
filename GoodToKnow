@@ -1,0 +1,5 @@
+(*) cross platform touchable - https://github.com/react-community/react-native-platform-touchable
+     https://facebook.github.io/react-native/docs/improvingux
+(*) KeyboardAvoidingView 
+(*) bigger tappable area -  hitSlop props
+
