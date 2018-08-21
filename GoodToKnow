@@ -2,4 +2,13 @@
      https://facebook.github.io/react-native/docs/improvingux
 (*) KeyboardAvoidingView 
 (*) bigger tappable area -  hitSlop props
+(*) javascript - https://facebook.github.io/react-native/docs/javascript-environment
+(*) direct manuplation of view without setState - setNativeProps
+      shouldComponentUpdate -  to see if the component need to be updated/rendered
+(*) Running on device  - https://facebook.github.io/react-native/docs/running-on-device
+(*) production release - https://facebook.github.io/react-native/docs/signed-apk-android
+(*) upgrade - https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md#updating-to-new-releases
+(*) linking  - https://facebook.github.io/react-native/docs/linking-libraries-ios#content
+(*) remove console message - https://facebook.github.io/react-native/docs/performance
+
 
